@@ -143,7 +143,7 @@ footer{
 }
 
 /* animation */
-.animate__animated, .animate__fadeIn{
+header{
     animation-duration: 3s;
     animation-delay: 0.5s;
 }
