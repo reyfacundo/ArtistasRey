@@ -1,0 +1,70 @@
+header {
+  width: 100%;
+  background: rgba(10, 10, 10, 0.432);
+  height: 15vh;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+
+header .logo .size {
+  width: 124px;
+}
+
+header .navbar {
+  padding-right: 2vw;
+  z-index: 1000;
+}
+
+header .navbar li {
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+header .navbar .navbar-nav a {
+  color: beige;
+}
+
+header .navbar .navbar-nav a:hover {
+  color: #f12a4e;
+}
+
+header a {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+header hr {
+  position: relative;
+  margin: auto;
+  opacity: 75%;
+  width: 39vw;
+  border: solid;
+  color: #f12a4e;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 6vh;
+  background: rgba(255, 66, 98, 0.274);
+  position: absolute;
+  bottom: 0;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.6vw;
+}
+
+footer .socials a img {
+  margin-left: 0.5vw;
+  cursor: pointer;
+  width: 37px;
+}
+/*# sourceMappingURL=main.css.map */
